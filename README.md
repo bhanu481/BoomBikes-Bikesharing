@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# BoomBikes-BikeSharing
+> BoomBikes is a shared bikes application used in USA. This project contains linear regression model to predict demand for shared bikes bookings using BookBikes app. During COVID-19 lockdown the company  is finding it very difficult to sustain in the current market scenario. So, it has decided to come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown comes to an end, and the economy restores to a healthy state.
 
 
 ## Table of Contents
@@ -11,38 +11,39 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Implementation of linear regression model to predict demand for booking count.
+- The data collected from 2018 and 2019 year bookings.
+- We want to comup with model with demand prediction to increase shared bike bookings once the quarantine situation ends.
+- This dataset contains general information of weather situations, day wise booking information.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Conclusion 1 We are able to achieve 81% R2-Score.
+- Conclusion 2 Linear regression model is robust with low complexity.
+- Conclusion 3 Key factors for shared bike bookings are ambiance temperature, weather situations, holidays.
+- Conclusion 4 Model has perfect fit on both training and test data with approximatly 81% R2-score.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
+- python - 3.0
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- math
+- sklearn
+- statsmodels
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was inspired by upgrad learning platform 
+- This project was based on [upgrad](https://www.upgrad.com/).
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@bhanu481] - feel free to contact me!
 
 
 <!-- Optional -->
